@@ -1,50 +1,50 @@
 "use client";
 const PrivacyPolicy = () => {
   return (
-    <div className="max-w-4xl w-full mx-auto  px-2 rounded-lg mt-10">
+    <div className="max-w-4xl w-full mx-auto px-4 sm:px-2 rounded-lg mt-6 sm:mt-10">
 
-        <h1 className="text-black text-[28px] uppercase text-center tracking-wide font-bold">Privacy Policy</h1>
+      <h1 className="text-gray-900 text-2xl sm:text-3xl uppercase text-center tracking-wide font-semibold">Privacy Policy</h1>
 
-        <p className="text-xs font-medium mt-10 leading-7 ">This Privacy Policy describes how zarganz.com (the “Site” or “we”) collects, uses, and discloses your Personal Information when you visit or make a purchase from the Site.</p>
+      <p className="text-[11px] sm:text-xs font-medium mt-6 sm:mt-10 leading-6 sm:leading-7">This Privacy Policy describes how zarganz.com (the “Site” or “we”) collects, uses, and discloses your Personal Information when you visit or make a purchase from the Site.</p>
 
-        <h2 className="text-black text-3xl uppercase mt-6 tracking-wide font-bold">Contact</h2>
+      <h2 className="text-black text-xl sm:text-2xl uppercase mt-5 sm:mt-6 tracking-wide font-semibold">Contact</h2>
 
-        <p className="text-xs font-medium mt-6 leading-7 ">After reviewing this policy, if you have additional questions, want more information about our privacy practices, or would like to make a complaint, please contact us by e-mail at <span className="font-semibold">support@zarganz.com</span>, by phone at <span className="font-semibold">+8801894555555</span>, or by mail at <span className="font-semibold">70, North Badda, 5th Floor, Pragati Sarani, Badda, Dhaka 1229</span>.</p>
+      <p className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 leading-6 sm:leading-7">After reviewing this policy, if you have additional questions, want more information about our privacy practices, or would like to make a complaint, please contact us by e-mail at <span className="font-semibold">support@zarganz.com</span>, by phone at <span className="font-semibold">+8801894555555</span>, or by mail at <span className="font-semibold">70, North Badda, 5th Floor, Pragati Sarani, Badda, Dhaka 1229</span>.</p>
 
-        <h2 className="text-black text-3xl uppercase mt-6 tracking-wide font-bold">Collecting Personal Information</h2>
+      <h2 className="text-black text-lg sm:text-xl uppercase mt-5 sm:mt-6 tracking-wide font-semibold">Collecting Personal Information</h2>
 
-        <p className="text-xs font-medium mt-6 leading-7 ">When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information about an identifiable individual (including the information below) as “Personal Information”.</p>
+      <p className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 leading-6 sm:leading-7">When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information about an identifiable individual (including the information below) as “Personal Information”.</p>
 
        
-       <div className="max-w-[790px] mx-auto">   
-         <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">Device information</h4>
+      <div className="max-w-197.5 mx-auto">   
+         <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">Device information</h4>
 
-        <ul className="text-xs font-medium mt-6 list-[circle] list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-[circle] list-outside leading-6 sm:leading-7">
           <li> <span className="font-semibold">Examples of Personal Information collected:</span> version of web browser, IP address, time zone, cookie information, what sites or products you view, search terms, and how you interact with the Site.</li>
           <li><span className="font-semibold">Purpose of collection:</span> to load the Site accurately for you, and to perform analytics on Site usage to optimize our Site.</li>
           <li><span className="font-semibold">Source of collection:</span> collected automatically when you access the Site using cookies, log files, web beacons, tags, or pixels.</li>
         </ul>
 
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">Order Information</h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">Order Information</h4>
 
-        <ul className="text-xs font-medium mt-6 list-[circle] list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-[circle] list-outside leading-6 sm:leading-7">
           <li> <span className="font-semibold">Purpose of collection:</span> to provide products or services to you to fulfill our contract, to process your payment information, arrange for shipping, and provide you with invoices and/or order confirmations, communicate with you, screen our orders for potential risk or fraud, and when in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.</li>
           <li><span className="font-semibold">Source of collection:</span> collected from you and provided by you.</li>
           <li><span className="font-semibold">Disclosure for a business purpose:</span> shared with our processor and service providers as needed to fulfill your order.</li>
           <li><span className="font-semibold">Personal Information collected:</span> name, billing address, shipping address, payment information, email address, and phone number.</li>
         </ul>
 
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">Customer Support Information</h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">Customer Support Information</h4>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> <span className="font-semibold">Purpose of collection:</span> to provide you with responsive and effective customer support, assist with order inquiries, resolve issues, and improve your overall shopping experience.</li>
           <li><span className="font-semibold">Source of collection:</span> collected directly from you when you reach out to us via our website, email, phone, live chat, or social media channels.</li>
           <li><span className="font-semibold">Disclosure for a business purpose:</span> we may share your information with trusted partners and service providers who help us manage customer inquiries and deliver support efficiently.</li>
         </ul>
 
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">Personal Information Collection</h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">Personal Information Collection</h4>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> Name</li>
           <li>Contact information (email address, phone number)</li>
           <li>Order details and history</li>
@@ -52,16 +52,16 @@ const PrivacyPolicy = () => {
           <li>Any additional information you voluntarily provide when contacting us </li>
         </ul>
 
-        <h2 className="text-black text-3xl text-center uppercase mt-6 tracking-wide font-semibold">MINORS// UNDER 16</h2>
+        <h2 className="text-black text-xl sm:text-2xl text-center uppercase mt-5 sm:mt-6 tracking-wide font-semibold">MINORS// UNDER 16</h2>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> <span className="font-semibold text-red-700">The Site is not intended for individuals under the age of 16.</span> We do not intentionally collect Personal Information from children. If you are the parent or guardian and believe your child has provided us with Personal Information, please contact us at the address above to request deletion.</li>
           
         </ul>
 
-        <h5 className="text-black text-xs  mt-6  text-center  font-bold">Sharing Personal Information</h5>
+        <h5 className="text-black text-[11px] sm:text-xs mt-5 sm:mt-6 text-center font-bold">Sharing Personal Information</h5>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> We share your Personal Information with service providers to help us provide our services and fulfill our contracts with you, as described above. For example: customer support partners, shipping partner, payment processors, analytics and advertising partners, and fraud prevention service.</li>
           <li> We may share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.</li>
           
@@ -69,9 +69,9 @@ const PrivacyPolicy = () => {
 
 
 
-        
 
-       < ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+
+  <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For example:</li>
 
           <li> We use Google Analytics to help us understand how our customers use the Site. You can read more about how Google uses your Personal Information here: <a className="underline" href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>. You can also opt-out of Google Analytics here: <a className="underline" href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer"> https://tools.google.com/dlpage/gaoptout</a>.</li>
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
           <li className="italic">instructions on how to opt-out of sale;</li>
           <li className="italic">whether your business sells information of minors (under 16) and whether you obtain affirmative authorization;</li>
           <li className="italic">we do not sell any information for financial gains</li>
-          <li className="font-semibold mt-10 underline">Your rights</li>
+          <li className="font-semibold mt-8 sm:mt-10 underline">Your rights</li>
           <li>GDPR</li>
           <li>If you are a resident of the EEA, you have the right to access the Personal Information we hold about you, to port it to a new service, and to ask that your Personal Information be corrected, updated, or erased. If you would like to exercise these rights, please contact us through the contact information above. </li>
 
@@ -168,23 +168,23 @@ const PrivacyPolicy = () => {
           
         </ul>
 
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">DO NOT TRACK </h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">DO NOT TRACK </h4>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> Please note that because there is no consistent industry understanding of how to respond to “Do Not Track” signals, we do not alter our data collection and usage practices when we detect such a signal from your browser.</li>
           
           
         </ul>
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">CHANGES </h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">CHANGES </h4>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7">
           <li> We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons.</li>
           
           
         </ul>
-        <h4 className="text-black text-sm uppercase mt-6 underline text-center  font-semibold">COMPLAINTS </h4>
+        <h4 className="text-black text-xs sm:text-sm uppercase mt-5 sm:mt-6 underline text-center font-semibold">COMPLAINTS </h4>
 
-        <ul className="text-xs font-medium mt-6 list-disc list-outside leading-7 mb-10">
+        <ul className="text-[11px] sm:text-xs font-medium mt-4 sm:mt-6 list-disc list-outside leading-6 sm:leading-7 mb-8 sm:mb-10">
           <li>As noted above, if you would like to make a complaint, please contact us by e-mail or by mail using the details provided under “Contact” above.</li>
           
           <li>If you are not satisfied with our response to your complaint, you have the right to lodge your complaint with the relevant data protection authority. You can contact your local data protection authority, or our supervisory authority here: For example: <a className="underline" href="https://ico.org.uk/make-a-complaint/" target="_blank" rel="noopener noreferrer">https://ico.org.uk/make-a-complaint/</a></li>
